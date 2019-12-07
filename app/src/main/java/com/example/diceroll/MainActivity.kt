@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var diceValue: TextView
     private lateinit var firstValue: TextView
     private lateinit var secondValue: TextView
-    lateinit var lastValue: TextView
+    private lateinit var lastValue: TextView
     private val arrayOfValues = arrayOf("", "", "")
 
     override fun onCreate(savedInstanceState: Bundle?) {
