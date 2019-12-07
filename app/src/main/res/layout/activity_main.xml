@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15sp"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/dice_value"
+              android:textSize="20sp"
+              android:text="@string/value"
+
+    />
+
+    <ImageView
+            android:id="@+id/dice_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/empty_dice"
+            tools:src="@drawable/dice_1"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonValue"
+            android:id="@+id/roll_btn"
+
+    />
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showButton"
+            android:id="@+id/show_btn"
+
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/first_value"
+              android:textSize="20sp"
+
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/second_value"
+              android:textSize="20sp"
+
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/last_value"
+              android:textSize="20sp"
+
+    />
+
+
+
+</LinearLayout>
